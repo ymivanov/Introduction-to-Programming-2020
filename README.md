@@ -1,1 +1,1 @@
-# Introduction-to-Programming-2020
+# ФМИ - Увод в програмирането
