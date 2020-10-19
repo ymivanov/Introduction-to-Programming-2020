@@ -17,13 +17,13 @@ int main()
 	std::cout << "Enter a three-digit number: ";
 	std::cin >> num;
 
-    int first_digit = num % 10;
+    int third_digit = num % 10;
     num /= 10;
 
     int second_digit = num % 10;
     num /= 10;
 
-    int third_digit = num;
+    int first_digit = num;
 
     std::cout << "Sum = " << first_digit + second_digit + third_digit << std::endl
               << "Product = " << first_digit * second_digit * third_digit << std::endl
