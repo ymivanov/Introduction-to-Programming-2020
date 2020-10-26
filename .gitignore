@@ -1,5 +1,5 @@
-*
-!*.cpp
-!*.md
-!/*
-*.DS_Store
+*         
+!*/
+!*.cpp  
+!*.md    
+!.gitignore
