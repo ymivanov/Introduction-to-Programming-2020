@@ -1,5 +1,9 @@
-*         
+*  
+*.DS_Store       
 !*/
+!*/*
 !*.cpp  
 !*.md    
 !.gitignore
+!.jpg
+!.png
