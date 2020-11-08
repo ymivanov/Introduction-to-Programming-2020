@@ -79,7 +79,6 @@ int main() {
                    && distanceFromSmallCircleCenterSquared <= middleRSquared) {
             std::cout << "The given point is on the white part of the middle circle in Yin-Yang!" << std::endl;
         } else if (distanceFromSmallCircleCenterSquared > middleRSquared) {
-            // repeatable code
             printColorAccordingToXSign(x);
         } else {
             std::cout << "Can not determine current position!" << std::endl;
